@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <form>
+    <h1>Feedback Form / Survey</h1>
+    <hr>
+    <h2>1. Personal Details</h2>
+    <p>Name: <input type="text" placeholder="Enter Full Name" required></p>
+    <p>Email id: <input type="email"  required></p>
+    <p>Age: <input type="number" required></p>
+    <br>
+    <h2>2. How satisfied are you with our service?</h2>
+    <label><input type="radio" name="satisfaction" value="very-good"> Very Good</label><br>
+    <label><input type="radio" name="satisfaction" value="good"> Good</label><br>
+    <label><input type="radio" name="satisfaction" value="average"> Average</label><br>
+    <label><input type="radio" name="satisfaction" value="poor"> Poor</label><br>
+    <br>
+    <h2>3. What features did you like? (Select multiple)</h2>
+    <label><input type="checkbox" name="features" value="design"> Website Design</label><br>
+    <label><input type="checkbox" name="features" value="speed"> Website Speed</label><br>
+    <label><input type="checkbox" name="features" value="support"> Customer Support</label><br>
+    <label><input type="checkbox" name="features" value="content"> Content Quality</label><br>
+    <br>
+    <h2>4. Which device do you use?</h2>
+    <select name="device">
+        <option value="">Select Device</option>
+        <option value="mobile">Mobile</option>
+        <option value="laptop">Laptop</option>
+        <option value="tablet">Tablet</option>
+        </select><br>
+        <br>
+    <h2>5. Additional Comments</h2>
+    <textarea name="comments" rows="5" cols="40" placeholder="Write your feedback here..."></textarea><br>
+    <br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </form>
+    <hr>
+    <p align="center">© 2025 My HTML Survey Form Project</p>
+</body>
+</html>
