@@ -1,0 +1,23 @@
+body{
+    background: #f5f5f5;
+}
+
+table{
+        background: white;
+        text-align: center;
+}
+
+
+button:hover{
+    background: #0056b3;
+}
+
+img {
+    transition: 0.4s ease-in-out;
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
