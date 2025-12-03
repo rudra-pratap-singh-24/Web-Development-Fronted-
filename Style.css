@@ -7,7 +7,6 @@ table{
         text-align: center;
 }
 
-
 button:hover{
     background: #0056b3;
 }
@@ -20,4 +19,5 @@ img {
 img:hover {
     transform: scale(1.08);
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
+
 }
